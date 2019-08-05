@@ -11,20 +11,110 @@
         <p>Here's a selection of some recent work. I've been dedicating most of my time on trying things and learning new languages.</p>
       </div>
 
-      <div class="projects morange">
+      <v-img src="../assets/work1.png"></v-img>
+      <div class="projects project1">
         <img class="projectIMG" src="../assets/tgifproject.png" />
       </div>
+      <div class="projectDescription1">
+        <h2>TGIF Transparency</h2>
+        <p>
+          Site that shows information about senators and congressmen obtained from ProPublica RestAPI. Mainly created to practise filtering.
+          <br />
+          <br />▯JS ▯VUE ▯JQUERY ▯BOOTSTRAP ▯NETLIFY
+        </p>
+        <v-btn
+          target="_blank"
+          href="https://tgiftransparency.netlify.com/"
+          class="projectBTN"
+          color="#08323a"
+        >
+          <span style="color:#9bb36f">View Site</span>
+        </v-btn>
+      </div>
 
-      <div class="projects mblue">
+      <v-img src="../assets/work2.png"></v-img>
+      <div class="projects project2">
         <img class="projectIMG" src="../assets/tindogproject.png" />
       </div>
-      <div class="projects mpink">
+      <div class="projectDescription2">
+        <h2>Tindog</h2>
+        <p>
+          Very basic site made only to practise responsive design with bootstrap grid and classes.
+          <br />
+          <br />▯BOOTSTRAP ▯NETLIFY
+        </p>
+        <v-btn
+          target="_blank"
+          href="https://tindog.netlify.com/"
+          class="projectBTN"
+          color="#9bb36f"
+        >
+          <span style="color:#031d22">View Site</span>
+        </v-btn>
+      </div>
+
+      <v-img src="../assets/work3.png"></v-img>
+      <div class="projects project3">
         <img class="projectIMG" src="../assets/simonproject.png" />
       </div>
-      <div class="projects mblack">
+      <div class="projectDescription1">
+        <h2>Simon Game</h2>
+        <p>
+          Site where you can play the Simon memory game. Has its own database to keep the highscores up to date. Made to practise JS logic, even listeners and Firebase database.
+          <br />
+          <br />▯JS ▯JQUERY ▯NETLIFY
+        </p>
+        <v-btn
+          target="_blank"
+          href="https://vsimon.netlify.com/"
+          class="projectBTN"
+          color="#08323a"
+        >
+          <span style="color:#9bb36f">View Site</span>
+        </v-btn>
+      </div>
+
+      <v-img src="../assets/work4.png"></v-img>
+      <div class="projects project4">
         <img class="projectIMG" src="../assets/mgproject.png" />
       </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore suscipit amet atque porro beatae reprehenderit explicabo voluptatibus iste consectetur optio nulla facere aut ab ullam veniam, repudiandae inventore dolorum. Repellat consectetur animi nihil quis aliquid blanditiis eum, numquam vero quasi soluta enim dolores facere error voluptas vitae deleniti in delectus iste praesentium perspiciatis dolorum quod obcaecati? Temporibus hic doloribus sequi eius quas libero quisquam, in id itaque, qui laudantium quasi ut reprehenderit molestiae perspiciatis distinctio mollitia, aperiam eligendi? Dicta ad aperiam tenetur, quasi quas quo eveniet dolorum debitis iusto, facere reprehenderit explicabo perferendis. Quia excepturi fuga est qui debitis? Dolores laborum voluptatum amet quisquam, quis nam necessitatibus rerum optio nemo eum, natus ratione itaque dignissimos delectus voluptates obcaecati quos sit recusandae maxime quidem veritatis mollitia culpa! Eum ipsa deleniti dignissimos illum illo nemo, voluptatem libero? Doloribus inventore illum quam voluptatum voluptas maiores, impedit, perferendis atque repellendus deserunt, eveniet dolor labore. Repudiandae cum, sunt tempora quis libero molestiae consequatur error neque, ex excepturi odio! Eligendi inventore soluta a at vero. Voluptate accusamus, nulla optio aperiam officiis natus alias, deserunt officia, cumque ad ducimus nam debitis cum reprehenderit atque quidem provident. Unde enim veritatis ut amet, possimus provident aspernatur cupiditate. Nesciunt, saepe?</p>
+      <div class="projectDescription2">
+        <h2>MG Team</h2>
+        <p>
+          The official MG Team bjj/mma site, component-oriented where you can find all the information related to the team including schedules, filters, comments section, gallery, contact form etc. Big screens display is still pending.
+          <br />
+          <br />▯VUE ▯VUETIFY ▯WEBPACK ▯NPM ▯JQUERY ▯JS ▯FIREBASE ▯AXIOS ▯SMTP
+        </p>
+        <v-btn
+          target="_blank"
+          href="https://mg-bjj.firebaseapp.com/"
+          class="projectBTN"
+          color="#9bb36f"
+        >
+          <span style="color:#031d22">View Site</span>
+        </v-btn>
+      </div>
+      <v-img src="../assets/work5.png"></v-img>
+      <div class="projects project5">
+        <img class="projectIMG" src="../assets/allaproject.png" />
+      </div>
+      <div class="projectDescription1">
+        <h2>Allá que voy!</h2>
+        <p>
+          Setting up my sisters traveling blog with Wordpress. Will be adding more custom css to in order to make her happy and practise with Wordpress at the same time.
+          <br />
+          <br />▯WORDPRESS ▯CSS
+        </p>
+        <v-btn
+          target="_blank"
+          href="https://www.allaquevoy.com/"
+          class="projectBTN"
+          color="#08323a"
+        >
+          <span style="color:#9bb36f">View Site</span>
+        </v-btn>
+      </div>
+      <v-img src="../assets/worklast.png"></v-img>
     </div>
   </div>
 </template>
@@ -34,6 +124,13 @@ export default {};
 </script>
 
 <style>
+.work1 {
+  background-image: url("../assets/work1.png");
+  height: 100vh;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .projects {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -48,33 +145,68 @@ export default {};
 .projectsText h1 {
   max-width: 30%;
   text-align: center;
-  padding: 1.5em 0 1em 0;
+  padding: 0.5em 0 1em 0;
 }
 .projectsText p {
   max-width: 30%;
   text-align: center;
   padding-bottom: 3em;
 }
+.projectDescription1 {
+  background-color: #031d22;
+  color: #9bb36f;
+  text-align: center;
+}
+.projectDescription1 h2 {
+  max-width: 40%;
+  margin: auto;
+}
+.projectDescription1 p {
+  margin: auto;
+  max-width: 40%;
+  margin-bottom: 0 !important;
+}
+.projectDescription2 {
+  background-color: #9bb36f;
+  color: #031d22;
+  text-align: center;
+}
+.projectDescription2 h2 {
+  max-width: 40%;
+  margin: auto;
+}
+.projectDescription2 p {
+  margin: auto;
+  max-width: 40%;
+  margin-bottom: 0 !important;
+}
+.projectBTN {
+  margin: 1em 0 3em 0;
+}
 
 .projectIMG {
   max-width: 50%;
+  padding-top: 2em;
 }
 .pencil {
   width: 30%;
   max-width: 250px;
-  padding-top: 20%;
+  padding-top: 30%;
 }
-.morange {
-  background-color: #f76160;
+.project1 {
+  background-color: #031d22;
 }
-.mblue {
-  background-color: #31355b;
+.project2 {
+  background-color: #9bb36f;
 }
-.mpink {
-  background-color: #f8c687;
+.project3 {
+  background-color: #031d22;
 }
-.mblack {
-  background-color: #21364b;
+.project4 {
+  background-color: #9bb36f;
+}
+.project5 {
+  background-color: #031d22;
 }
 .header2 {
   background-image: url("../assets/green2.png");
@@ -97,6 +229,18 @@ export default {};
   }
   .projectsText p {
     max-width: 80%;
+  }
+  .projectDescription1 h2 {
+    max-width: 90%;
+  }
+  .projectDescription1 p {
+    max-width: 90%;
+  }
+  .projectDescription2 h2 {
+    max-width: 90%;
+  }
+  .projectDescription2 p {
+    max-width: 90%;
   }
 }
 </style>
