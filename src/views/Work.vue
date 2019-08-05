@@ -45,7 +45,7 @@
         </p>
         <v-btn
           target="_blank"
-          href="https://tindog.netlify.com/"
+          href="https://vtindog.netlify.com/"
           class="projectBTN"
           color="#9bb36f"
         >
@@ -99,7 +99,7 @@
         <img class="projectIMG" src="../assets/allaproject.png" />
       </div>
       <div class="projectDescription1">
-        <h2>Allá que voy!</h2>
+        <h2>Allá Que Voy!</h2>
         <p>
           Setting up my sisters traveling blog with Wordpress. Will be adding more custom css to in order to make her happy and practise with Wordpress at the same time.
           <br />
@@ -143,12 +143,12 @@ export default {};
   flex-direction: column;
 }
 .projectsText h1 {
-  max-width: 30%;
+  max-width: 35%;
   text-align: center;
-  padding: 0.5em 0 1em 0;
+  padding: 0.5em 0 0.5em 0;
 }
 .projectsText p {
-  max-width: 30%;
+  max-width: 35%;
   text-align: center;
   padding-bottom: 3em;
 }
@@ -158,12 +158,12 @@ export default {};
   text-align: center;
 }
 .projectDescription1 h2 {
-  max-width: 40%;
+  max-width: 35%;
   margin: auto;
 }
 .projectDescription1 p {
   margin: auto;
-  max-width: 40%;
+  max-width: 35%;
   margin-bottom: 0 !important;
 }
 .projectDescription2 {
@@ -172,12 +172,12 @@ export default {};
   text-align: center;
 }
 .projectDescription2 h2 {
-  max-width: 40%;
+  max-width: 35%;
   margin: auto;
 }
 .projectDescription2 p {
   margin: auto;
-  max-width: 40%;
+  max-width: 35%;
   margin-bottom: 0 !important;
 }
 .projectBTN {
@@ -189,9 +189,9 @@ export default {};
   padding-top: 2em;
 }
 .pencil {
-  width: 30%;
+  width: 20%;
   max-width: 250px;
-  padding-top: 30%;
+  padding-top: 40%;
 }
 .project1 {
   background-color: #031d22;
@@ -241,6 +241,26 @@ export default {};
   }
   .projectDescription2 p {
     max-width: 90%;
+  }
+}
+@media (min-width: 2000px) {
+  .projectsText p {
+    max-width: 20%;
+  }
+  .projectDescription1 h2 {
+    max-width: 20%;
+  }
+  .projectDescription1 p {
+    max-width: 20%;
+  }
+  .projectDescription2 h2 {
+    max-width: 20%;
+  }
+  .projectDescription2 p {
+    max-width: 20%;
+  }
+  .projectIMG {
+    max-width: 30%;
   }
 }
 </style>
