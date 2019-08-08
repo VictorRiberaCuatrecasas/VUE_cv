@@ -1,6 +1,6 @@
 <template>
   <v-toolbar flat class="navbar" :class="{ 'navbar--hidden': !showNavbar }">
-    <v-toolbar-title>LOGO</v-toolbar-title>
+    <img class="logo" src="../assets/logo.png" />
 
     <v-spacer></v-spacer>
 
@@ -105,6 +105,12 @@ export default {
 </script>
 
 <style>
+.logo {
+  height: 10vh;
+  width: 10vh;
+  position: fixed;
+  top: 2.6vh;
+}
 .navbar {
   height: 15vh;
   padding-top: 6.7vh;

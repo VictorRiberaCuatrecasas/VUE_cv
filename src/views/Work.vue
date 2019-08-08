@@ -6,9 +6,11 @@
       </header>
       <v-img class="mirrorIMGg" src="../assets/green2b.png"></v-img>
       <div class="projectsText">
-        <img class="pencil" src="../assets/pencil.svg" />
-        <h1>Lately I've been up to..</h1>
-        <p>Here's a selection of some recent work. I've been dedicating most of my time on trying things and learning new languages.</p>
+        <img class="pencil" src="../assets/pencil.png" />
+        <h1 style="color: #031d22;">Lately I've been up to..</h1>
+        <p
+          style="color: #031d22; padding-bottom:2em;"
+        >Here's a selection of some recent work. I've been dedicating most of my time on trying things and learning new languages.</p>
       </div>
 
       <v-img src="../assets/work1.png"></v-img>
@@ -158,7 +160,6 @@ export default {
 .projectsText p {
   max-width: 35%;
   text-align: center;
-  padding-bottom: 3em;
 }
 .projectDescription1 {
   background-color: #031d22;
@@ -199,7 +200,7 @@ export default {
 .pencil {
   width: 20%;
   max-width: 250px;
-  padding-top: 40%;
+  padding-top: 10em;
 }
 .project1 {
   background-color: #031d22;
@@ -229,6 +230,9 @@ export default {
   .projectIMG {
     max-width: 90%;
     height: 250px;
+  }
+  .projectsText h2 {
+    max-width: 90%;
   }
   .projectsText h1 {
     max-width: 90%;
