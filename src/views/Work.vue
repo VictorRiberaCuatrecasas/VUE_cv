@@ -2,7 +2,7 @@
   <div>
     <div>
       <header class="header2">
-        <p class="hTitle">Work</p>
+        <!-- <p class="hTitle">Work</p> -->
       </header>
       <v-img class="mirrorIMGg" src="../assets/green2b.png"></v-img>
       <div class="projectsText">
@@ -103,7 +103,7 @@
       <div class="projectDescription1">
         <h2>Allá Que Voy!</h2>
         <p>
-          Setting up my sisters traveling blog with Wordpress. Will be adding more custom css to in order to make her happy and practise with Wordpress at the same time.
+          Setting up my sisters traveling blog with Wordpress. Will be adding more custom css in order to make her happy and practise with Wordpress at the same time.
           <br />
           <br />▯WORDPRESS ▯CSS
         </p>

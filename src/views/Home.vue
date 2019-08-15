@@ -42,7 +42,7 @@
           <p class="aboutText colorAbout2">
             As of now, I've learned some front-end languages and I'm in the process of learning back end in order to become a full stack developer.
             <br />
-            <br />▯HTML ▯CSS ▯JS ▯JQUERY ▯BOOTSTRAP ▯VUE ▯VUETIFY ▯FIREBASE ▯AXIOS
+            <br />▯HTML ▯CSS ▯JS ▯JQUERY ▯BOOTSTRAP ▯VUE ▯VUETIFY ▯GIT ▯FIREBASE ▯AXIOS
           </p>
         </v-flex>
         <v-flex xs10 md2 xl2 order-md2 order-xs1>
@@ -81,6 +81,21 @@
         </v-flex>
       </v-layout>
     </v-container>
+    <pre class="separator">......</pre>
+    <h1
+      style="text-align:center; margin-bottom: 1em;font-size: 2.5em;
+    font-weight: 400;"
+      class="colorAbout1"
+    >Download my CV</h1>
+
+    <v-flex justify-center row style="margin:0">
+      <v-btn elevation="6" class="pdfbtn" @click="esp">
+        <v-icon>mdi-download</v-icon>Spanish
+      </v-btn>
+      <v-btn elevation="6" class="pdfbtn" @click="eng">
+        <v-icon>mdi-download</v-icon>English
+      </v-btn>
+    </v-flex>
 
     <v-img src="../assets/footer1.png"></v-img>
     <Footer class="footer1"></Footer>
@@ -88,12 +103,59 @@
 </template>
 
 <script>
+import axios from "axios";
 import Footer from "../components/Footer.vue";
 export default {
+  data() {
+    return {
+      url2: require("../assets/cvesp.pdf"),
+      url: require("../assets/cveng.pdf")
+    };
+  },
   components: {
     Footer
   },
-  methods: {},
+  methods: {
+    forceFileDownload(response) {
+      const url = window.URL.createObjectURL(new Blob([response.data]));
+      const link = document.createElement("a");
+      link.href = url;
+      link.setAttribute("download", "CV-ESP.pdf"); //or any other extension
+      document.body.appendChild(link);
+      link.click();
+    },
+    forceFileDownload2(response) {
+      const url = window.URL.createObjectURL(new Blob([response.data]));
+      const link = document.createElement("a");
+      link.href = url;
+      link.setAttribute("download", "CV-ENG.pdf"); //or any other extension
+      document.body.appendChild(link);
+      link.click();
+    },
+
+    esp() {
+      axios({
+        method: "get",
+        url: this.url,
+        responseType: "arraybuffer"
+      })
+        .then(response => {
+          this.forceFileDownload(response);
+        })
+        .catch(() => console.log("error occured"));
+    },
+    eng() {
+      axios({
+        method: "get",
+        url: this.url2,
+        responseType: "arraybuffer"
+      })
+        .then(response => {
+          this.forceFileDownload2(response);
+        })
+        .catch(() => console.log("error occured"));
+    }
+  },
   mounted() {}
 };
 </script>
@@ -162,6 +224,12 @@ export default {
   max-width: 35%;
   text-align: center;
   padding: 0.5em 0 0.5em 0;
+}
+
+.pdfbtn {
+  color: white !important;
+  background-color: #210002 !important;
+  margin: 0 1em 8em 0;
 }
 
 @media (max-width: 600px) {

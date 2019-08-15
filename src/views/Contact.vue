@@ -1,14 +1,22 @@
 <template>
   <div>
     <header class="header3">
-      <p class="hTitle">Contact</p>
+      <!-- <p class="hTitle">Contact</p> -->
     </header>
-    <v-img class="mirrorIMG" src="../assets/blueb.png"></v-img>
+    <v-img class="mirrorIMG" src="../assets/bluebt.png"></v-img>
 
+    <v-flex justify-center row style="margin:0">
+      <v-btn style="background-color:#000035; margin: 6em 0 6em 0">
+        <a class="contactMail" href="mailto:victorribera92@gmail.com">✉ MESSAGE ME</a>
+      </v-btn>
+    </v-flex>
     <v-img src="../assets/footer3.png"></v-img>
     <Footer class="footer3"></Footer>
   </div>
 </template>
+
+
+
 
 <script>
 import Footer from "../components/Footer.vue";
@@ -56,12 +64,10 @@ footer div a img:hover {
 .footerNav:hover {
   font-weight: bold;
 }
-hr {
-  border: none;
-  height: 2px;
-  /* Set the hr color */
-  color: white; /* old IE */
-  background-color: white; /* Modern Browsers */
+
+.contactMail {
+  text-decoration: none;
+  color: white !important;
 }
 
 footer div {
@@ -70,7 +76,7 @@ footer div {
 }
 
 .header3 {
-  background-image: url("../assets/blue.png");
+  background-image: url("../assets/bluet.png");
   height: 100vh;
   background-position: top center;
   background-repeat: no-repeat;
