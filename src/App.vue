@@ -26,6 +26,10 @@ export default {
 .theme--light.v-application {
   background: white !important;
 }
+
+body {
+  overflow-x: hidden;
+}
 html {
   font-size: 16px;
 }
