@@ -6,7 +6,11 @@
     <v-img class="mirrorIMG" src="../assets/bluebt.png"></v-img>
 
     <v-flex justify-center row style="margin:0">
-      <v-btn style="background-color:#000035; margin: 6em 0 6em 0">
+      <v-btn
+        data-aos="flip-right"
+        data-aos-duration="1000"
+        style="background-color:#000035; margin: 6em 0 6em 0"
+      >
         <a class="contactMail" href="mailto:victorribera92@gmail.com">✉ MESSAGE ME</a>
       </v-btn>
     </v-flex>

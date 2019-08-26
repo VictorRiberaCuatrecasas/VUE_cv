@@ -11,13 +11,17 @@
     <div class="projectsText">
       <div class="cvpic"></div>
 
-      <h2 class="colorAbout1">Hey there!</h2>
+      <h2 data-aos="fade-right" data-aos-duration="2000" class="colorAbout1">Hey there!</h2>
       <p
+        data-aos="fade-left"
+        data-aos-duration="2000"
         class="colorAbout2"
       >I'm a junior web developer / designer based in Barcelona, Spain. I've always had a passion for design and IT in general and so I decided to pursue my goal of becoming a web developer.</p>
     </div>
     <pre class="separator">......</pre>
     <h1
+      data-aos="fade-up"
+      data-aos-duration="2000"
       style="text-align:center; margin-bottom: 1em;font-size: 2.5em;
     font-weight: 400;"
       class="colorAbout1"
@@ -25,33 +29,53 @@
     <v-container>
       <v-layout row wrap justify-center>
         <v-flex xs10 md2 xl2>
-          <v-img class="aboutPics" src="../assets/html1.png"></v-img>
+          <v-img
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aboutPics"
+            src="../assets/html1.png"
+          ></v-img>
         </v-flex>
         <v-flex xs10 md5 xl3 align-self-center>
-          <h2 class="aboutText colorAbout1">Design / Develop</h2>
-          <p class="aboutText colorAbout2 margin-b">
+          <h2
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            class="aboutText colorAbout1"
+          >Design / Develop</h2>
+          <p data-aos="fade-left" data-aos-duration="2000" class="aboutText colorAbout2 margin-b">
             As a junior front end developer, everyday I'm getting better and better at developing, so I know how to create your website.
-            When designing, I like to keep it simple. My goals are to focus on typography and flat design and landscape images.
+            When designing, I like to keep it simple. My goals are to focus on typography, flat design and landscape images.
           </p>
         </v-flex>
       </v-layout>
       <br />
       <v-layout row wrap justify-center>
         <v-flex xs10 md5 xl3 align-self-center order-md1 order-xs2>
-          <h2 class="aboutText colorAbout1">Tech Skills</h2>
-          <p class="aboutText colorAbout2">
+          <h2
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            class="aboutText colorAbout1"
+          >Tech Skills</h2>
+          <p data-aos="fade-right" data-aos-duration="2000" class="aboutText colorAbout2">
             As of now, I've learned some front-end languages and I'm in the process of learning back end in order to become a full stack developer.
             <br />
-            <br />▯HTML ▯CSS ▯JS ▯JQUERY ▯BOOTSTRAP ▯VUE ▯VUETIFY ▯GIT ▯FIREBASE ▯AXIOS
+            <br />♢HTML ♢CSS ♢JS ♢JQUERY ♢BOOTSTRAP ♢VUE ♢VUETIFY ♢GIT ♢FIREBASE ♢AXIOS
           </p>
         </v-flex>
         <v-flex xs10 md2 xl2 order-md2 order-xs1>
-          <v-img class="aboutPics" src="../assets/skillspic.jpg"></v-img>
+          <v-img
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aboutPics"
+            src="../assets/skillspic.jpg"
+          ></v-img>
         </v-flex>
       </v-layout>
     </v-container>
     <pre class="separator">......</pre>
     <h1
+      data-aos="fade-up"
+      data-aos-duration="2000"
       style="text-align:center; margin-bottom: 1em;font-size: 2.5em;
     font-weight: 400;"
       class="colorAbout1"
@@ -59,40 +83,68 @@
     <v-container>
       <v-layout row wrap justify-center>
         <v-flex xs10 md2 xl2>
-          <v-img class="aboutPics" src="../assets/me.png"></v-img>
+          <v-img
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aboutPics"
+            src="../assets/me.png"
+          ></v-img>
         </v-flex>
         <v-flex xs10 md5 xl3 align-self-center>
-          <h2 class="aboutText colorAbout1">Me</h2>
+          <h2 data-aos="fade-left" data-aos-duration="2000" class="aboutText colorAbout1">Me</h2>
           <p
+            data-aos="fade-left"
+            data-aos-duration="2000"
             class="aboutText colorAbout2 margin-b"
-          >I've been living 30km away from Barcelona in a town called La Garriga since I was born in 1992. Whilst always fascinated by technology and design, I chose to study International Trade and Human Resources. I've always liked working with and for the people, so I enjoyed working as an HR Generalist but it was not my passion, so in the end, I made the jump and started pursuing a web development career.</p>
+          >I've been living 30km away from Barcelona in a town called La Garriga since I was born in 1992. Whilst always fascinated by technology and design, I chose to study International Trade and Human Resources. I've always liked working with and for the people, so I enjoyed working as an HR Generalist, but it was not my passion, so in the end, I made the jump and started pursuing a web development career.</p>
         </v-flex>
       </v-layout>
       <br />
       <v-layout row wrap justify-center>
         <v-flex xs10 md5 xl3 align-self-center order-md1 order-xs2>
-          <h2 class="aboutText colorAbout1">Hobbies</h2>
+          <h2 data-aos="fade-right" data-aos-duration="2000" class="aboutText colorAbout1">Hobbies</h2>
           <p
+            data-aos="fade-right"
+            data-aos-duration="2000"
             class="aboutText colorAbout2 margin-b"
           >There are three things I really love: martial arts, reading and videogames. I've always been into sports and over 10 years ago I started training martial arts, nowadays I'm a mma instructor and brasilian jiu-jitsu practitioner. When it comes to reading, fantasy novels and mythology books are my go to, I specially like Brandon Sanderson and the Norse and Egyptian mythology.</p>
         </v-flex>
         <v-flex xs10 md2 xl2 order-md2 order-xs1>
-          <v-img class="aboutPics" src="../assets/bjjabout.png"></v-img>
+          <v-img
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aboutPics"
+            src="../assets/bjjabout.png"
+          ></v-img>
         </v-flex>
       </v-layout>
     </v-container>
     <pre class="separator">......</pre>
     <h1
+      data-aos="fade-up"
+      data-aos-duration="2000"
       style="text-align:center; margin-bottom: 1em;font-size: 2.5em;
     font-weight: 400;"
       class="colorAbout1"
     >Download my CV</h1>
 
     <v-flex justify-center row style="margin:0">
-      <v-btn elevation="6" class="pdfbtn" @click="esp">
+      <v-btn
+        data-aos="fade-right"
+        data-aos-duration="2000"
+        elevation="6"
+        class="pdfbtn"
+        @click="esp"
+      >
         <v-icon>mdi-download</v-icon>Spanish
       </v-btn>
-      <v-btn elevation="6" class="pdfbtn" @click="eng">
+      <v-btn
+        data-aos="fade-left"
+        data-aos-duration="2000"
+        elevation="6"
+        class="pdfbtn"
+        @click="eng"
+      >
         <v-icon>mdi-download</v-icon>English
       </v-btn>
     </v-flex>
@@ -105,11 +157,12 @@
 <script>
 import axios from "axios";
 import Footer from "../components/Footer.vue";
+
 export default {
   data() {
     return {
-      url2: require("../assets/cvesp.pdf"),
-      url: require("../assets/cveng.pdf")
+      url2: require("../assets/cveng.pdf"),
+      url: require("../assets/cvesp.pdf")
     };
   },
   components: {
