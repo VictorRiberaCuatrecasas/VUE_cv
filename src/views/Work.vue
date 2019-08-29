@@ -61,7 +61,7 @@
           src="../assets/tindogproject.png"
         />
       </div>
-      <div class="projectDescription2">
+      <div class="projectDescription2 no-overflow">
         <div data-aos="fade-left" data-aos-duration="2000">
           <h2>Tindog</h2>
           <p>
@@ -112,7 +112,7 @@
           src="../assets/mgproject.png"
         />
       </div>
-      <div class="projectDescription2">
+      <div class="projectDescription2 no-overflow">
         <div data-aos="fade-left" data-aos-duration="2000">
           <h2>MG Team</h2>
           <p>

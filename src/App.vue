@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-content>
-      <Navbar></Navbar>
+      <Navbar class="body"></Navbar>
       <router-view></router-view>
     </v-content>
   </v-app>
@@ -27,9 +27,14 @@ export default {
   background: white !important;
 }
 
-body {
-  overflow-x: hidden;
+/* fix right overflow on mobile screen caused by AOS animations */
+.no-overflow {
+  overflow: hidden !important;
 }
+.testN {
+  overflow: visible !important;
+}
+
 html {
   font-size: 16px;
 }
