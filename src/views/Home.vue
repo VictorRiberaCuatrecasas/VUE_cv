@@ -67,7 +67,7 @@
           >
             As of now, I've learned some front-end languages and I'm in the process of learning back end in order to become a full stack developer.
             <br />
-            <br />♢HTML ♢CSS ♢JS ♢JQUERY ♢BOOTSTRAP ♢VUE ♢VUETIFY ♢GIT ♢SASS ♢NPM ♢NODE ♢EXPRESS ♢MONGODB ♢EJS ♢MONGOOSE ♢FIREBASE ♢AXIOS 
+            <br />♢HTML ♢CSS ♢JS ♢JQUERY ♢BOOTSTRAP ♢VUE ♢VUETIFY ♢GIT ♢SASS ♢NPM ♢NODE ♢EXPRESS ♢MONGODB ♢EJS ♢MONGOOSE ♢FIREBASE ♢AXIOS
           </p>
         </v-flex>
         <v-flex class="no-overflow" xs10 md2 xl2 order-md2 order-xs1>
@@ -123,7 +123,7 @@
             data-aos="fade-right"
             data-aos-duration="2000"
             class="aboutText colorAbout2 margin-b no-overflow"
-          >There are three things I really love: martial arts, reading and videogames. I've always been into sports and over 10 years ago I started training martial arts, nowadays I'm a mma instructor and brasilian jiu-jitsu practitioner. When it comes to reading, fantasy novels and mythology books are my go to, I specially like Brandon Sanderson and the Norse and Egyptian mythology.</p>
+          >There are three things I really love: martial arts, reading and videogames. I've always been into sports and over 10 years ago I started training martial arts, nowadays I'm a mma instructor and brasilian jiu-jitsu practitioner. When it comes to reading, fantasy novels and mythology books are my go to, I specially like fantasy novels and everything related to the Norse and Egyptian mythology.</p>
         </v-flex>
         <v-flex class="no-overflow" xs10 md2 xl2 order-md2 order-xs1>
           <v-img
