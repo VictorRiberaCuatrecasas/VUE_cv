@@ -188,27 +188,27 @@
         </div>
       </div>
 
-      <!-- ALLA QUE VOY -->
+      <!-- REACT NOTES -->
       <v-img src="../assets/work5.png"></v-img>
       <div class="projects project5">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
-          class="projectIMG"
-          src="../assets/allaproject.png"
+          class="projectIMG2"
+          src="../assets/vrc-notes.png"
         />
       </div>
       <div class="projectDescription1">
         <div data-aos="fade-right" data-aos-duration="2000">
-          <h2>Allá Que Voy!</h2>
+          <h2>React Notes</h2>
           <p>
-            Setting up my sisters traveling blog with Wordpress. Will be adding more custom css in order to make her happy and practise with Wordpress at the same time.
+            Notes app to practise with React (complex state, hooks, components, forms, props, conditional rendering, material-ui ...)
             <br />
-            <br />♢WORDPRESS ♢CSS
+            <br />♢REACT ♢MATERIAL-UI
           </p>
           <v-btn
             target="_blank"
-            href="https://www.allaquevoy.com/"
+            href="https://notes-vrc.herokuapp.com/"
             class="projectBTN"
             color="#08323a"
           >
