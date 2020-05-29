@@ -38,7 +38,7 @@
         <div data-aos="fade-right" data-aos-duration="2000">
           <h2>TGIF Transparency</h2>
           <p>
-            Site that shows information about senators and congressmen obtained from ProPublica RestAPI. Mainly created to practise filtering.
+            Site that shows information about senators and congressmen obtained from ProPublica RestAPI. Mainly created to practice filtering.
             <br />
             <br />♢JS ♢VUE ♢JQUERY ♢BOOTSTRAP ♢NETLIFY
           </p>
@@ -96,7 +96,7 @@
         <div data-aos="fade-right" data-aos-duration="2000">
           <h2>Simon Game</h2>
           <p>
-            Site where you can play the Simon memory game. Has its own database to keep the highscores up to date. Made to practise JS logic, event listeners and Firebase database.
+            Site where you can play the Simon memory game. Has its own database to keep the highscores up to date. Made to practice JS logic, event listeners and Firebase database.
             <br />
             <br />♢JS ♢JQUERY ♢NETLIFY
           </p>
@@ -194,7 +194,7 @@
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
-          class="projectIMG2"
+          class="projectIMG"
           src="../assets/vrc-notes.png"
         />
       </div>
@@ -202,7 +202,7 @@
         <div data-aos="fade-right" data-aos-duration="2000">
           <h2>React Notes</h2>
           <p>
-            Notes app to practise with React (complex state, hooks, components, forms, props, conditional rendering, material-ui ...)
+            Notes app to practice with React (complex state, hooks, components, forms, props, conditional rendering, material-ui ...)
             <br />
             <br />♢REACT ♢MATERIAL-UI
           </p>
