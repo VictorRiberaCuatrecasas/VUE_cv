@@ -33,7 +33,7 @@
             data-aos="zoom-in"
             data-aos-duration="2000"
             class="aboutPics no-overflow"
-            src="../assets/html1.png"
+            src="../assets/develop.png"
           ></v-img>
         </v-flex>
         <v-flex class="no-overflow" xs10 md5 xl3 align-self-center>
@@ -67,7 +67,7 @@
           >
             As of now, I've learned some front-end languages and I'm in the process of learning back end in order to become a full stack developer.
             <br />
-            <br />♢HTML ♢CSS ♢JS ♢JQUERY ♢BOOTSTRAP ♢VUE ♢VUETIFY ♢GIT ♢SASS ♢NPM ♢NODE ♢EXPRESS ♢MONGODB ♢EJS ♢MONGOOSE ♢FIREBASE ♢BCRYPT ♢PASSPORT.JS ♢OAUTH2.0
+            <br />♢HTML ♢CSS ♢JS ♢BOOTSTRAP ♢SASS ♢JQUERY ♢REACT ♢VUE ♢VUETIFY ♢LARAVEL.BLADES ♢GIT ♢NODE ♢EXPRESS ♢MONGODB ♢EJS ♢MONGOOSE ♢FIREBASE ♢PASSPORT.JS ♢OAUTH2.0
           </p>
         </v-flex>
         <v-flex class="no-overflow" xs10 md2 xl2 order-md2 order-xs1>
@@ -75,7 +75,7 @@
             data-aos="zoom-in"
             data-aos-duration="2000"
             class="aboutPics no-overflow"
-            src="../assets/skillspic.jpg"
+            src="../assets/skills.png"
           ></v-img>
         </v-flex>
       </v-layout>
@@ -95,7 +95,7 @@
             data-aos="zoom-in"
             data-aos-duration="2000"
             class="aboutPics no-overflow"
-            src="../assets/me.png"
+            src="../assets/profile.png"
           ></v-img>
         </v-flex>
         <v-flex class="no-overflow" xs10 md5 xl3 align-self-center>
@@ -130,7 +130,7 @@
             data-aos="zoom-in"
             data-aos-duration="2000"
             class="aboutPics no-overflow"
-            src="../assets/bjjabout.png"
+            src="../assets/reading.png"
           ></v-img>
         </v-flex>
       </v-layout>
@@ -229,88 +229,4 @@ export default {
 };
 </script>
 
-<style>
-.header1 {
-  background-image: url("../assets/orange.png");
-  height: 100vh;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: -15vh;
-}
-.hTitle {
-  padding-top: 20vh;
-  color: white;
-  font-size: 10vh;
-  font-family: "Satisfy", cursive;
-  text-align: center;
-  margin-bottom: 0 !important;
-}
-.hSubtitle1 {
-  color: white;
-  font-size: 3vh;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-}
-.container {
-  max-width: 100% !important; /* to change default .container media from vue*/
-}
-.aboutPics {
-  width: 200px;
-  height: 200px;
-  margin: auto;
-}
-.aboutText {
-  text-align: justify;
-}
-.cvpic {
-  background-image: url("../assets/vic.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
-  margin-top: 10em;
-  transition: 1s;
-}
-.cvpic:hover {
-  background-image: url("../assets/cartoon1.png");
-  border-radius: 50%;
-}
-
-.separator {
-  margin: 2.5em 0 3em 0;
-  font-size: 35px;
-  color: #2100023f;
-  text-align: center;
-}
-.colorAbout1 {
-  color: #210002 !important;
-}
-.colorAbout2 {
-  color: #280003 !important;
-}
-.projectsText h2 {
-  max-width: 35%;
-  text-align: center;
-  padding: 0.5em 0 0.5em 0;
-}
-
-.pdfbtn {
-  color: white !important;
-  background-color: #210002 !important;
-  margin: 0 1em 8em 0;
-}
-
-@media (max-width: 600px) {
-  .cvpic {
-    width: 150px;
-    height: 150px;
-  }
-  .aboutText {
-    text-align: center;
-  }
-  .margin-b {
-    padding-bottom: 4em;
-  }
-}
-</style>
+<style></style>

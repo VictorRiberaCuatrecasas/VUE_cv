@@ -1,0 +1,16 @@
+@import url(./home.css);
+@import url(./work.css);
+@import url(./contact.css);
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Satisfy&display=swap");
+
+
+html {
+  font-size: 16px;
+}
+/* fix right overflow on mobile screen caused by AOS animations */
+.no-overflow {
+  overflow: hidden !important;
+}
+.theme--light.v-application {
+    background: white !important;
+  }

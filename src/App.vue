@@ -21,21 +21,4 @@ export default {
 };
 </script>
 
-<style>
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Satisfy&display=swap");
-.theme--light.v-application {
-  background: white !important;
-}
-
-/* fix right overflow on mobile screen caused by AOS animations */
-.no-overflow {
-  overflow: hidden !important;
-}
-.testN {
-  overflow: visible !important;
-}
-
-html {
-  font-size: 16px;
-}
-</style>
+<style lang="css" src="./css/main.css"></style>
