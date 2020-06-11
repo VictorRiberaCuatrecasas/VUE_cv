@@ -16,7 +16,7 @@
         data-aos="fade-left"
         data-aos-duration="2000"
         class="colorAbout2 no-overflow"
-      >I'm a junior web developer / designer based in Barcelona, Spain. I've always had a passion for design and IT in general and so I decided to pursue my goal of becoming a web developer.</p>
+      >I'm Victor Ribera, a junior web developer / designer based in Barcelona, Spain. I've always had a passion for design and IT in general and so I decided to pursue my goal of becoming a web developer.</p>
     </div>
     <pre class="separator no-overflow">......</pre>
     <h1
