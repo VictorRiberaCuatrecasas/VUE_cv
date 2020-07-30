@@ -11,7 +11,7 @@ import firebase from "firebase";
 Vue.config.productionTip = false;
 
 var firebaseConfig = {
-  
+  apiKey: "AIzaSyD4Vu8V6ilX-0_GEQBs99Ml7rK8gqP_RiY",
   authDomain: "victor-ribera.firebaseapp.com",
   databaseURL: "https://victor-ribera.firebaseio.com",
   projectId: "victor-ribera",
@@ -22,7 +22,7 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-firebase.analytics()
+firebase.analytics();
 
 // Configuration VueAnalytics
 Vue.use(VueAnalytics, {

@@ -71,20 +71,11 @@
     max-width: 250px;
     padding-top: 10em;
   }
-  .project1 {
+  .projectbg1 {
     background-color: #031d22;
   }
-  .project2 {
+  .projectbg2 {
     background-color: #9bb36f;
-  }
-  .project3 {
-    background-color: #031d22;
-  }
-  .project4 {
-    background-color: #9bb36f;
-  }
-  .project5 {
-    background-color: #031d22;
   }
   .header2 {
     background-image: url("../assets/green2.png");

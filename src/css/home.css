@@ -24,8 +24,12 @@
     max-width: 100% !important; /* to change default .container media from vue*/
   }
   .aboutPics {
-    height: 200px;
+    max-height: 300px;
     margin: auto;
+  }
+  .center-pic{
+    display: flex;
+    align-items: center;
   }
   .aboutText {
     text-align: justify;

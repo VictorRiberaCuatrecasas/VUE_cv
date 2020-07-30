@@ -26,7 +26,7 @@
 
       <!-- TGIF TRANSPARENCY -->
       <v-img src="../assets/work1.png"></v-img>
-      <div class="projects project1">
+      <div class="projects projectbg1">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
@@ -38,7 +38,7 @@
         <div data-aos="fade-right" data-aos-duration="2000">
           <h2>TGIF Transparency</h2>
           <p>
-            Site that shows information about senators and congressmen obtained from ProPublica RestAPI. Mainly created to practice filtering.
+           Responsive Site that shows information about senators and congressmen obtained from ProPublica RestAPI. Mainly created to practice filtering.
             <br />
             <br />♢JS ♢VUE ♢JQUERY ♢BOOTSTRAP ♢NETLIFY
           </p>
@@ -53,27 +53,27 @@
         </div>
       </div>
 
-      <!-- NEWSLETTER -->
+      <!-- RECIPES -->
       <v-img src="../assets/work2.png"></v-img>
-      <div class="projects project2">
+      <div class="projects projectbg2">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
-          class="projectIMG2"
-          src="../assets/newsletterfram1.png"
+          class="projectIMG"
+          src="../assets/recipesproject.png"
         />
       </div>
       <div class="projectDescription2 no-overflow">
         <div data-aos="fade-left" data-aos-duration="2000">
-          <h2>VRC Newsletter</h2>
+          <h2>Recipes Searcher</h2>
           <p>
-            Basic newsletter subscription connected to Mailchimp as my introduction to back-end with node.
+            Responsive Web sample to improve on React dynamic routing and hooks. Deployment to heroku with router and api usage.
             <br />
-            <br />♢JS ♢BOOTSTRAP ♢NODE ♢NODE ♢EXPRESS
+            <br />♢JS ♢REACT ♢HEROKU
           </p>
           <v-btn
             target="_blank"
-            href="https://vrc-newsletter.herokuapp.com/"
+            href="https://vrc-recipes.herokuapp.com/"
             class="projectBTN"
             color="#9bb36f"
           >
@@ -84,7 +84,7 @@
 
       <!-- SIMON GAME-->
       <v-img src="../assets/work3.png"></v-img>
-      <div class="projects project3">
+      <div class="projects projectbg1">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
@@ -108,7 +108,7 @@
 
       <!-- MG TEAM -->
       <v-img src="../assets/work4.png"></v-img>
-      <div class="projects project4">
+      <div class="projects projectbg2">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
@@ -122,7 +122,7 @@
           <p>
             The official MG Team bjj/mma site, component-oriented where you can find all the information related to the team including schedules, filters, comments section, gallery, contact form etc. Big screens display is still pending.
             <br />
-            <br />♢VUE ♢VUETIFY ♢WEBPACK ♢NPM ♢JQUERY ♢JS ♢FIREBASE ♢AXIOS ♢SMTP
+            <br />♢VUE ♢VUETIFY ♢JQUERY ♢JS ♢FIREBASE ♢AXIOS ♢SMTP
           </p>
           <v-btn
             target="_blank"
@@ -137,7 +137,7 @@
 
       <!-- NODE BLOG-->
       <v-img src="../assets/work3.png"></v-img>
-      <div class="projects project3">
+      <div class="projects projectbg1">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
@@ -161,7 +161,7 @@
 
       <!-- TO DO LIST -->
       <v-img src="../assets/work4.png"></v-img>
-      <div class="projects project4">
+      <div class="projects projectbg2">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
@@ -188,27 +188,72 @@
         </div>
       </div>
 
-      <!-- REACT NOTES -->
-      <v-img src="../assets/work5.png"></v-img>
-      <div class="projects project5">
+      <!-- COVID TRACKER-->
+      <v-img src="../assets/work3.png"></v-img>
+      <div class="projects projectbg1">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
-          class="projectIMG"
-          src="../assets/vrc-notes.png"
+          class="projectIMG2"
+          src="../assets/covidproject.png"
         />
       </div>
       <div class="projectDescription1">
         <div data-aos="fade-right" data-aos-duration="2000">
-          <h2>React Notes</h2>
+          <h2>Covid Tracker</h2>
           <p>
-            Notes app to practice with React (complex state, hooks, components, forms, props, conditional rendering, material-ui ...)
+            Responsive project that tracks covid info by API and displays it on different charts and labels using Chart.js and CountUp. Styled with Material UI and css modules.
             <br />
-            <br />♢REACT ♢MATERIAL-UI
+            <br />♢JS ♢REACT ♢CHART.JS ♢MATERIAL-UI ♢COUNTUP
+          </p>
+          <v-btn target="_blank" href="https://vrc-covid.herokuapp.com/" class="projectBTN">
+            <span style="color:#9bb36f">View Site</span>
+          </v-btn>
+        </div>
+      </div>
+
+      <!-- MERCK -->
+      <v-img src="../assets/work4.png"></v-img>
+      <div class="projects projectbg2">
+        <img
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+          class="projectIMG"
+          src="../assets/merckproject.png"
+        />
+      </div>
+      <div class="projectDescription2 no-overflow">
+        <div data-aos="fade-left" data-aos-duration="2000">
+          <h2>Colorectal Cancer CMS</h2>
+          <p>
+            Project made along with a design and scientific team. Planned as an iframe, built mostly with vue, chart.js and core.ui. Loads content by Jsons and has many functionalities amongst which: navigation through charts, paginators, videos & animations... Styled with vuetify and scss.
+            <br />
+            <br />♢JS ♢VUE ♢VUETIFY ♢CHART.JS ♢CORE.UI ♢SCSS ♢FONTAWESOME
+          </p>
+        </div>
+      </div>
+
+      <!-- RESORT -->
+      <v-img src="../assets/work5.png"></v-img>
+      <div class="projects projectbg1">
+        <img
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+          class="projectIMG"
+          src="../assets/resortproject.png"
+        />
+      </div>
+      <div class="projectDescription1">
+        <div data-aos="fade-right" data-aos-duration="2000">
+          <h2>VRC Resort</h2>
+          <p>
+            Responsive React Project as a sample for renting rooms, has a global state using Context, contents are loaded from Contentful and routes are created dynamicaly. Styled with Styled Components and React Icons.
+            <br />
+            <br />♢JS ♢REACT ♢MATERIAL-UI ♢CONTENTFUL ♢STYLED-COMPONENTS ♢NETLIFY
           </p>
           <v-btn
             target="_blank"
-            href="https://notes-vrc.herokuapp.com/"
+            href="https://vrc-resort.netlify.app/"
             class="projectBTN"
             color="#08323a"
           >

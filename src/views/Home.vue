@@ -26,9 +26,11 @@
     font-weight: 400;"
       class="colorAbout1 no-overflow"
     >What I can do</h1>
+
     <v-container class="no-overflow">
+      <!-- DESIGN DEVELOP -->
       <v-layout class="no-overflow" row wrap justify-center>
-        <v-flex class="no-overflow" xs10 md2 xl2>
+        <v-flex  class="no-overflow center-pic" xs9 sm5 md2 xl2>
           <v-img
             data-aos="zoom-in"
             data-aos-duration="2000"
@@ -53,6 +55,7 @@
         </v-flex>
       </v-layout>
       <br />
+      <!-- TECH SKILLS -->
       <v-layout class="no-overflow" row wrap justify-center>
         <v-flex class="no-overflow" xs10 md5 xl3 align-self-center order-md1 order-xs2>
           <h2
@@ -67,10 +70,10 @@
           >
             As of now, I've learned some front-end languages and I'm in the process of learning back end in order to become a full stack developer.
             <br />
-            <br />♢HTML ♢CSS ♢JS ♢BOOTSTRAP ♢SASS ♢JQUERY ♢REACT ♢VUE ♢VUETIFY ♢LARAVEL.BLADES ♢GIT ♢NODE ♢EXPRESS ♢MONGODB ♢EJS ♢MONGOOSE ♢FIREBASE ♢PASSPORT.JS ♢OAUTH2.0
+            <br />♢HTML ♢CSS ♢JS ♢BOOTSTRAP ♢SASS ♢JQUERY ♢REACT ♢MATERIALUI ♢VUE ♢VUETIFY ♢LARAVEL.BLADES ♢GIT ♢NODE ♢EXPRESS ♢MONGODB ♢EJS ♢MONGOOSE ♢FIREBASE ♢PASSPORT.JS ♢OAUTH2.0 ♢CONTENTFUL
           </p>
         </v-flex>
-        <v-flex class="no-overflow" xs10 md2 xl2 order-md2 order-xs1>
+        <v-flex class="no-overflow center-pic" xs9 sm5 md2 xl2 order-md2 order-xs1>
           <v-img
             data-aos="zoom-in"
             data-aos-duration="2000"
@@ -80,6 +83,8 @@
         </v-flex>
       </v-layout>
     </v-container>
+
+
     <pre class="separator no-overflow">......</pre>
     <h1
       data-aos="fade-up"
@@ -89,8 +94,10 @@
       class="colorAbout1 no-overflow"
     >More about me</h1>
     <v-container class="no-overflow">
+
+      <!-- ME -->
       <v-layout class="no-overflow" row wrap justify-center>
-        <v-flex class="no-overflow" xs10 md2 xl2>
+        <v-flex  class="no-overflow center-pic" xs9 sm5 md2 xl2>
           <v-img
             data-aos="zoom-in"
             data-aos-duration="2000"
@@ -112,6 +119,7 @@
         </v-flex>
       </v-layout>
       <br />
+      <!-- HOBBIES -->
       <v-layout class="no-overflow" row wrap justify-center>
         <v-flex class="no-overflow" xs10 md5 xl3 align-self-center order-md1 order-xs2>
           <h2
@@ -125,7 +133,7 @@
             class="aboutText colorAbout2 margin-b no-overflow"
           >There are three things I really love: martial arts, reading and videogames. I've always been into sports and over 10 years ago I started training martial arts, nowadays I'm a mma instructor and brasilian jiu-jitsu practitioner. When it comes to reading, fantasy novels and mythology books are my go to, I specially like fantasy novels and everything related to the Norse and Egyptian mythology.</p>
         </v-flex>
-        <v-flex class="no-overflow" xs10 md2 xl2 order-md2 order-xs1>
+        <v-flex  class="no-overflow center-pic" xs9 sm5 md2 xl2 order-md2 order-xs1>
           <v-img
             data-aos="zoom-in"
             data-aos-duration="2000"
@@ -135,6 +143,7 @@
         </v-flex>
       </v-layout>
     </v-container>
+
     <pre class="separator no-overflow">......</pre>
     <h1
       data-aos="fade-up"
