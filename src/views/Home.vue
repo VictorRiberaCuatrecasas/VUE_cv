@@ -49,8 +49,8 @@
             data-aos-duration="2000"
             class="aboutText colorAbout2 margin-b no-overflow"
           >
-            As a junior front end developer, everyday I'm getting better and better at developing, so I know how to create your website.
-            When designing, I like to keep it simple. My goals are to focus on typography, flat design and landscape images.
+            As a junior web developer I'm getting better and better at developing by the day so there is a big chance that I know how to create your website. Im confident on my skills in the front-end area and I'm currently working on my back-end skills.<br>
+            When it comes designing, I focus the most on UX and accessibility. I like flat design and cool typography.
           </p>
         </v-flex>
       </v-layout>
@@ -131,7 +131,7 @@
             data-aos="fade-right"
             data-aos-duration="2000"
             class="aboutText colorAbout2 margin-b no-overflow"
-          >There are three things I really love: martial arts, reading and videogames. I've always been into sports and over 10 years ago I started training martial arts, nowadays I'm a mma instructor and brasilian jiu-jitsu practitioner. When it comes to reading, fantasy novels and mythology books are my go to, I specially like fantasy novels and everything related to the Norse and Egyptian mythology.</p>
+          >There are four things I really love: martial arts, reading, videogames and hiking. I've always been into sports and when I was 15 I started training martial arts, nowadays I'm a mma instructor and brasilian jiu-jitsu practitioner. When it comes to reading, fantasy novels and mythology books are my go to.</p>
         </v-flex>
         <v-flex  class="no-overflow center-pic" xs9 sm5 md2 xl2 order-md2 order-xs1>
           <v-img
