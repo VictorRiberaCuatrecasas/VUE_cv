@@ -70,7 +70,7 @@
           >
             As of now, I've learned some front-end languages and I'm in the process of learning back end in order to become a full stack developer.
             <br />
-            <br />♢HTML ♢CSS ♢JS ♢BOOTSTRAP ♢SASS ♢JQUERY ♢REACT ♢MATERIALUI ♢VUE ♢VUETIFY ♢LARAVEL.BLADES ♢GIT ♢NODE ♢EXPRESS ♢MONGODB ♢EJS ♢MONGOOSE ♢FIREBASE ♢PASSPORT.JS ♢OAUTH2.0 ♢CONTENTFUL
+            <br />♢HTML ♢CSS ♢JS ♢BOOTSTRAP ♢SASS ♢JQUERY ♢REACT ♢MATERIALUI ♢VUE ♢VUETIFY ♢GIT ♢JEST ♢NODE ♢EXPRESS ♢MONGODB ♢EJS ♢MONGOOSE ♢LARAVEL.BLADES ♢FIREBASE ♢PASSPORT.JS ♢OAUTH2.0 ♢UNIT-TESTING ♢CONTENTFUL
           </p>
         </v-flex>
         <v-flex class="no-overflow center-pic" xs9 sm5 md2 xl2 order-md2 order-xs1>
