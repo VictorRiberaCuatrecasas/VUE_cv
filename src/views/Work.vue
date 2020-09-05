@@ -4,13 +4,14 @@
       <header class="header2">
         <!-- <p class="hTitle">Work</p> -->
       </header>
-      <v-img class="mirrorIMGg" src="../assets/green2b.png"></v-img>
+      <v-img src="../assets/green2b.png" alt="decorationIMG"></v-img>
       <div class="projectsText">
         <img
           data-aos="fade-down"
           data-aos-duration="2000"
           class="pencil"
           src="../assets/pencil.png"
+          alt="pencil"
         />
         <h1
           data-aos="fade-up"
@@ -25,13 +26,14 @@
       </div>
 
       <!-- TGIF TRANSPARENCY -->
-      <v-img src="../assets/work1.png"></v-img>
+      <v-img src="../assets/work1.png" alt="decorationIMG"></v-img>
       <div class="projects projectbg1">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
           class="projectIMG"
           src="../assets/tgifproject.png"
+          alt="tgifProject"
         />
       </div>
       <div class="projectDescription1">
@@ -54,13 +56,14 @@
       </div>
 
       <!-- RECIPES -->
-      <v-img src="../assets/work2.png"></v-img>
+      <v-img src="../assets/work2.png" alt="decorationIMG"></v-img>
       <div class="projects projectbg2">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
           class="projectIMG"
           src="../assets/recipesproject.png"
+          alt="recipesProject"
         />
       </div>
       <div class="projectDescription2 no-overflow">
@@ -83,13 +86,14 @@
       </div>
 
       <!-- SIMON GAME-->
-      <v-img src="../assets/work3.png"></v-img>
+      <v-img src="../assets/work3.png" alt="decorationIMG"></v-img>
       <div class="projects projectbg1">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
           class="projectIMG"
           src="../assets/simonproject.png"
+          alt="simonProject"
         />
       </div>
       <div class="projectDescription1">
@@ -107,13 +111,14 @@
       </div>
 
       <!-- MG TEAM -->
-      <v-img src="../assets/work4.png"></v-img>
+      <v-img src="../assets/work4.png" alt="decorationIMG"></v-img>
       <div class="projects projectbg2">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
           class="projectIMG"
           src="../assets/mgproject.png"
+          alt="mgProject"
         />
       </div>
       <div class="projectDescription2 no-overflow">
@@ -136,13 +141,14 @@
       </div>
 
       <!-- NODE BLOG-->
-      <v-img src="../assets/work3.png"></v-img>
+      <v-img src="../assets/work3.png" alt="decorationIMG"></v-img>
       <div class="projects projectbg1">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
           class="projectIMG"
           src="../assets/blogproject.png"
+          alt="blogProject"
         />
       </div>
       <div class="projectDescription1">
@@ -160,13 +166,14 @@
       </div>
 
       <!-- TO DO LIST -->
-      <v-img src="../assets/work4.png"></v-img>
+      <v-img src="../assets/work4.png" alt="decorationIMG"></v-img>
       <div class="projects projectbg2">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
           class="projectIMG2"
           src="../assets/todolistframe1.png"
+          alt="todoProject"
         />
       </div>
       <div class="projectDescription2 no-overflow">
@@ -189,13 +196,14 @@
       </div>
 
       <!-- COVID TRACKER-->
-      <v-img src="../assets/work3.png"></v-img>
+      <v-img src="../assets/work3.png" alt="decorationIMG"></v-img>
       <div class="projects projectbg1">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
           class="projectIMG2"
           src="../assets/covidproject.png"
+          alt="covidProject"
         />
       </div>
       <div class="projectDescription1">
@@ -213,13 +221,14 @@
       </div>
 
       <!-- MERCK -->
-      <v-img src="../assets/work4.png"></v-img>
+      <v-img src="../assets/work4.png" alt="decorationIMG"></v-img>
       <div class="projects projectbg2">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
           class="projectIMG"
           src="../assets/merckproject.png"
+          alt="merckProject"
         />
       </div>
       <div class="projectDescription2 no-overflow">
@@ -234,13 +243,14 @@
       </div>
 
       <!-- RESORT -->
-      <v-img src="../assets/work5.png"></v-img>
+      <v-img src="../assets/work5.png" alt="decorationIMG"></v-img>
       <div class="projects projectbg1">
         <img
           data-aos="zoom-in"
           data-aos-duration="2000"
           class="projectIMG"
           src="../assets/resortproject.png"
+          alt="resortProject"
         />
       </div>
       <div class="projectDescription1">
@@ -261,10 +271,10 @@
           </v-btn>
         </div>
       </div>
-      <v-img src="../assets/worklast.png"></v-img>
+      <v-img src="../assets/worklast.png" alt="decorationIMG"></v-img>
     </div>
 
-    <v-img src="../assets/footer2.png"></v-img>
+    <v-img src="../assets/footer2.png" alt="decorationIMG"></v-img>
     <Footer class="footer2"></Footer>
   </div>
 </template>

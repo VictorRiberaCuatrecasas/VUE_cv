@@ -7,7 +7,7 @@
         <strong style="font-style: italic">pro</strong>grammer
       </p>
     </header>
-    <v-img class="mirrorIMG" src="../assets/orangeb.png"></v-img>
+    <v-img src="../assets/orangeb.png" alt="decorationImg"></v-img>
     <div class="projectsText no-overflow">
       <div class="cvpic no-overflow"></div>
 
@@ -36,6 +36,7 @@
             data-aos-duration="2000"
             class="aboutPics no-overflow"
             src="../assets/develop.png"
+            alt="designIMG"
           ></v-img>
         </v-flex>
         <v-flex class="no-overflow" xs10 md5 xl3 align-self-center>
@@ -79,6 +80,7 @@
             data-aos-duration="2000"
             class="aboutPics no-overflow"
             src="../assets/skills.png"
+            alt="skillsIMG"
           ></v-img>
         </v-flex>
       </v-layout>
@@ -103,6 +105,7 @@
             data-aos-duration="2000"
             class="aboutPics no-overflow"
             src="../assets/profile.png"
+            aboutMeIMG
           ></v-img>
         </v-flex>
         <v-flex class="no-overflow" xs10 md5 xl3 align-self-center>
@@ -139,6 +142,7 @@
             data-aos-duration="2000"
             class="aboutPics no-overflow"
             src="../assets/reading.png"
+            alt="Hobbies"
           ></v-img>
         </v-flex>
       </v-layout>
@@ -174,7 +178,7 @@
       </v-btn>
     </v-flex>
 
-    <v-img src="../assets/footer1.png"></v-img>
+    <v-img src="../assets/footer1.png" alt="footer-decoration"></v-img>
     <Footer class="footer1"></Footer>
   </div>
 </template>

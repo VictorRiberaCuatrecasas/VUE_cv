@@ -3,7 +3,7 @@
     <header class="header3">
       <!-- <p class="hTitle">Contact</p> -->
     </header>
-    <v-img class="mirrorIMG" src="../assets/bluebt.png"></v-img>
+    <v-img src="../assets/bluebt.png"></v-img>
 
     <v-flex justify-center row style="margin:0">
       <v-btn

@@ -1,18 +1,18 @@
 <template>
   <v-toolbar flat class="navbar" :class="{ 'navbar--hidden': !showNavbar }">
-    <img class="logo" src="../assets/logo.png" />
+    <img class="logo" src="../assets/logo.png" alt="logo" />
 
     <v-spacer></v-spacer>
 
     <v-toolbar-items>
       <div>
         <div @click="navCollapseColor()">
-          <router-link id="firstNav" v-bind:class="{selectedPage}" class="navBtn" to="/">About</router-link>
+          <router-link id="firstNav" v-bind:class="{selectedPage}" class="navBtn" to="/" tabindex="0">About</router-link>
         </div>
       </div>
       <div>
         <div @click="navCollapseColor()">
-          <router-link id="secondNav" v-bind:class="{selectedPage}" class="navBtn" to="/Work">Work</router-link>
+          <router-link id="secondNav" v-bind:class="{selectedPage}" class="navBtn" to="/Work" tabindex="0">Work</router-link>
         </div>
       </div>
       <div>
@@ -22,6 +22,7 @@
             v-bind:class="{selectedPage}"
             class="navBtn"
             to="/Contact"
+            tabindex="0"
           >Contact</router-link>
         </div>
       </div>
