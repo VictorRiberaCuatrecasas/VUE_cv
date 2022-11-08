@@ -16,7 +16,7 @@
         data-aos="fade-left"
         data-aos-duration="2000"
         class="colorAbout2 no-overflow"
-      >I'm Victor Ribera, a junior web developer / designer based in Barcelona, Spain. I've always had a passion for design and IT in general and so I decided to pursue my goal of becoming a web developer.</p>
+      >I'm Victor Ribera, a junior web developer / designer from Barcelona now living in the Netherlands (Zwolle). I've always had a passion for design and IT in general and so after graduating and spending several years working in Human Resources I decided to pursue my goal of becoming a web developer.</p>
     </div>
     <pre class="separator no-overflow">......</pre>
     <h1
@@ -50,8 +50,8 @@
             data-aos-duration="2000"
             class="aboutText colorAbout2 margin-b no-overflow"
           >
-            As a junior web developer I'm getting better and better at developing by the day so there is a big chance that I know how to create your website. Im confident on my skills in the front-end area and I'm currently working on my back-end skills.<br>
-            When it comes designing, I focus the most on UX and accessibility. I like flat design and cool typography.
+            Im always evolving as a developer, originally start with a strong focus on front-end but I keep on learning more and more about back-end.<br>
+            When it comes designing, I have a good eye for UX and accessibility and I enjoy using flat design in combination with cool typography.
           </p>
         </v-flex>
       </v-layout>
@@ -69,9 +69,9 @@
             data-aos-duration="2000"
             class="aboutText colorAbout2 no-overflow"
           >
-            As of now, I've learned some front-end languages and I'm in the process of learning back end in order to become a full stack developer.
+            I wrote my first line of code in 2018 and I've been studying or working as a developer ever since. This are some of the fields I've some experience with:
             <br />
-            <br />♢HTML ♢CSS ♢JS ♢BOOTSTRAP ♢SASS ♢JQUERY ♢REACT ♢MATERIALUI ♢VUE ♢VUETIFY ♢GIT ♢JEST ♢NODE ♢EXPRESS ♢MONGODB ♢EJS ♢MONGOOSE ♢LARAVEL.BLADES ♢FIREBASE ♢PASSPORT.JS ♢OAUTH2.0 ♢UNIT-TESTING ♢CONTENTFUL
+            <br />♢HTML ♢CSS ♢SASS ♢BOOTSTRAP ♢JS ♢JQUERY ♢REACT ♢MATERIALUI  ♢AURELIA ♢VUE ♢VUETIFY ♢GIT ♢JEST ♢NODE ♢EXPRESS ♢MONGODB ♢EJS ♢MONGOOSE ♢LARAVEL ♢SYMFONY ♢TWIG ♢FIREBASE ♢PASSPORT.JS ♢OAUTH2.0 ♢UNIT-TESTING ♢CONTENTFUL ♢JIRA
           </p>
         </v-flex>
         <v-flex class="no-overflow center-pic" xs9 sm5 md2 xl2 order-md2 order-xs1>
@@ -118,7 +118,7 @@
             data-aos="fade-left"
             data-aos-duration="2000"
             class="aboutText colorAbout2 margin-b no-overflow"
-          >I've been living 30km away from Barcelona in a town called La Garriga since I was born in 1992. Whilst always fascinated by technology and design, I chose to study International Trade and Human Resources. I've always liked working with and for the people, so I enjoyed working as an HR Generalist, but it was not my passion, so in the end, I made the jump and started pursuing a web development career.</p>
+          >I lived 30km away from Barcelona in a town called La Garriga since I was born in 1992, after that I decided to go on a little adventure and I move to the Netherlands in 2020. Whilst always fascinated by technology and design, I chose to study International Trade and Human Resources. I've always liked working with and for the people, so I enjoyed working as an HR Generalist, but it was not my passion, so in the end, I made the jump and started pursuing a web development career.</p>
         </v-flex>
       </v-layout>
       <br />
@@ -134,7 +134,7 @@
             data-aos="fade-right"
             data-aos-duration="2000"
             class="aboutText colorAbout2 margin-b no-overflow"
-          >There are four things I really love: martial arts, reading, videogames and hiking. I've always been into sports and when I was 15 I started training martial arts, nowadays I'm a mma instructor and brasilian jiu-jitsu practitioner. When it comes to reading, fantasy novels and mythology books are my go to.</p>
+          >There are four things I really love: martial arts, reading, videogames and hiking. I've always been into sports and when I was 15 I started training martial arts, I'm a proud MMA and brasilian jiu-jitsu practitioner. When it comes to reading, fantasy novels and mythology books are my go to.</p>
         </v-flex>
         <v-flex  class="no-overflow center-pic" xs9 sm5 md2 xl2 order-md2 order-xs1>
           <v-img

@@ -159,9 +159,6 @@
             <br />
             <br />♢JS ♢EJS ♢NODE ♢EXPRESS ♢MONGOOSE ♢MONGODB
           </p>
-          <v-btn target="_blank" href="https://vrc-blog.herokuapp.com/" class="projectBTN">
-            <span style="color:#9bb36f">View Site</span>
-          </v-btn>
         </div>
       </div>
 
@@ -184,14 +181,6 @@
             <br />
             <br />♢JS ♢EJS ♢BOOTSTRAP ♢NODE ♢EXPRESS ♢MONGOOSE ♢MONGODB
           </p>
-          <v-btn
-            target="_blank"
-            href="https://vrc-todolist.herokuapp.com/"
-            class="projectBTN"
-            color="#9bb36f"
-          >
-            <span style="color:#031d22">View Site</span>
-          </v-btn>
         </div>
       </div>
 
