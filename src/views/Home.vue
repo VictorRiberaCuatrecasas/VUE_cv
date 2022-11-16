@@ -118,7 +118,7 @@
             data-aos="fade-left"
             data-aos-duration="2000"
             class="aboutText colorAbout2 margin-b no-overflow"
-          >I lived 30km away from Barcelona in a town called La Garriga since I was born in 1992, after that I decided to go on a little adventure and I move to the Netherlands in 2020. Whilst always fascinated by technology and design, I chose to study International Trade and Human Resources. I've always liked working with and for the people, so I enjoyed working as an HR Generalist, but it was not my passion, so in the end, I made the jump and started pursuing a web development career.</p>
+          >I lived 30km away from Barcelona in a town called La Garriga since I was born in 1992, after that I decided to go on a little adventure and I moved to the Netherlands in 2020. Whilst always fascinated by technology and design, I chose to study International Trade and Human Resources. I've always liked working with and for the people, so I enjoyed working as an HR Generalist, but it was not my passion, so in the end, I made the jump and started pursuing a web development career.</p>
         </v-flex>
       </v-layout>
       <br />
